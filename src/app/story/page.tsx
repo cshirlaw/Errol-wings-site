@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export const metadata = {
   title: 'Brand Story — Errol Wings',
   description: 'The Errol Wings story',
@@ -24,11 +22,11 @@ export default function StoryPage() {
       </p>
 
       <div className="not-prose mt-8 grid gap-6 sm:grid-cols-2">
-        <div className="relative aspect-[3/4] rounded-lg border">
-          <Image src="/images/errol-wings-12-front.jpg" alt="Errol Wings 12 Year Old — front" fill sizes="(min-width: 640px) 50vw, 100vw" style={{objectFit:'contain'}}/>
+        <div className="mx-auto w-full max-w-sm rounded-lg border bg-white p-3">
+          <img src="/images/errol-wings-12-front.jpg" alt="Errol Wings 12 Year Old — front" style={{display:'block', width:'100%', height:'auto'}} />
         </div>
-        <div className="relative aspect-[3/4] rounded-lg border">
-          <Image src="/images/errol-wings-12-back.jpg" alt="Errol Wings 12 Year Old — back" fill sizes="(min-width: 640px) 50vw, 100vw" style={{objectFit:'contain'}}/>
+        <div className="mx-auto w-full max-w-sm rounded-lg border bg-white p-3">
+          <img src="/images/errol-wings-12-back.jpg" alt="Errol Wings 12 Year Old — back" style={{display:'block', width:'100%', height:'auto'}} />
         </div>
       </div>
     </section>
