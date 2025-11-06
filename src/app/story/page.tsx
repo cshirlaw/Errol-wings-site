@@ -11,17 +11,16 @@ export default function StoryPage() {
       <h1>Brand Story</h1>
       <p>
         Errol Wings is a tribute to the wartime cooperation between British and Russian pilots during the Second World War.
-        Near the village of Errol in Scotland, aviators trained side by side on British aircraft that were bound for the Eastern Front.
-        The shared discipline, skill and courage shown there inspired the name of our whisky.
+        Near the village of Errol in Scotland, aviators trained side by side on British aircraft bound for the Eastern Front.
+        The shared discipline and courage shown there inspired the name of our whisky.
       </p>
       <p>
         Our 12-year-old blended Scotch brings together carefully selected single grain and vintage malt whiskies matured in bourbon oak casks,
-        crafted to deliver balance, character and a long finish. The range now also includes a three-year-old single malt that continues the tradition
-        with a cleaner, youthful profile intended for broader international audiences.
+        crafted for balance and a long finish. The range now also includes a three-year-old single malt with a cleaner, youthful profile intended
+        for international markets.
       </p>
       <p className="text-sm text-neutral-500">
-        Note: Label elements used on earlier bottlings reflected the historical theme. Current and future releases streamline those elements for
-        clarity across markets.
+        Earlier bottlings reflected the historical theme more explicitly. Current and future releases streamline those elements for clarity across markets.
       </p>
 
       <div className="not-prose mt-8 grid gap-6 sm:grid-cols-2">
