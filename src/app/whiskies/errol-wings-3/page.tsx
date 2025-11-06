@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export const metadata = {
   title: 'Errol Wings — 3 Year Old Single Malt',
   description: 'Errol Wings 3 Year Old — Single Malt Scotch Whisky (Pilot’s Reserve).',
@@ -8,8 +6,12 @@ export const metadata = {
 export default function EW3Page() {
   return (
     <article className="grid lg:grid-cols-2 gap-8">
-      <div className="relative aspect-[3/4] w-full rounded-2xl border">
-        <Image src="/images/errol-wings-3-front.jpg" alt="Errol Wings 3 Year Old Single Malt — front" fill sizes="(min-width:1024px) 40vw, 100vw" style={{objectFit:'contain'}}/>
+      <div className="w-full max-w-md mx-auto rounded-2xl border bg-white p-4">
+        <img
+          src="/images/errol-wings-3-front.jpg"
+          alt="Errol Wings 3 Year Old Single Malt — front"
+          style={{ display:'block', width:'100%', height:'auto' }}
+        />
       </div>
 
       <section className="prose prose-neutral max-w-none">

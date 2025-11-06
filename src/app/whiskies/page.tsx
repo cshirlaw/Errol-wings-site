@@ -1,19 +1,11 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
-export const metadata = {
-  title: 'Our Whiskies — Errol Wings',
-  description: 'Explore the Errol Wings range',
-};
-
-function Card({
-  href, title, subtitle, img, alt
-}: { href: string; title: string; subtitle: string; img: string; alt: string }) {
+function Card({ href, title, subtitle, img, alt }: { href:string; title:string; subtitle:string; img:string; alt:string }) {
   return (
     <Link href={href} className="group block rounded-2xl border hover:shadow-md transition-shadow">
       <div className="p-4">
-        <div className="relative mx-auto aspect-[3/4] w-full max-w-sm">
-          <Image src={img} alt={alt} fill sizes="(min-width: 1024px) 25vw, 50vw" style={{objectFit:'contain'}}/>
+        <div className="mx-auto w-full max-w-sm rounded-lg border bg-white p-3">
+          <img src={img} alt={alt} style={{ display:'block', width:'100%', height:'auto' }} />
         </div>
         <div className="px-1 pb-4">
           <h2 className="mt-4 text-xl font-semibold group-hover:underline">{title}</h2>
@@ -23,6 +15,11 @@ function Card({
     </Link>
   );
 }
+
+export const metadata = {
+  title: 'Our Whiskies — Errol Wings',
+  description: 'Explore the Errol Wings range',
+};
 
 export default function WhiskiesPage() {
   return (
