@@ -10,7 +10,7 @@ export default function EW3Page() {
         <img
           src="/images/errol-wings-3-front.jpg"
           alt="Errol Wings 3 Year Old Single Malt — front"
-          style={{ display:'block', width:'100%', height:'auto' }}
+          style={{ display: 'block', width: '50%', margin: '0 auto', height: 'auto' }}
         />
       </div>
 
