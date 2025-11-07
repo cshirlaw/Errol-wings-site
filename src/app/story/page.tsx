@@ -37,7 +37,7 @@ export default function StoryPage() {
                 className="w-full h-auto block"
               />
             </div>
-            <div className="w-full max-w-md rounded-xl border border-black/15 bg-[#e5d2ae] shadow-sm overflow-hidden">
+            <div className="w-full max-w-md rounded-xl border border-black/15 bg-[#e5d2ae] shadow-sm p-3">
               <img
                 src="/images/pilot.jpg"
                 alt="Historic pilot imagery linked to Errol Wings story"
