@@ -6,26 +6,28 @@ export const metadata = {
 export default function EW3Page() {
   return (
     <article className="space-y-10">
-      {/* Bottle intro */}
-      <section className="grid lg:grid-cols-2 gap-8 items-center">
-        <div className="w-full max-w-md mx-auto rounded-2xl border bg-white p-4">
-          <img
-            src="/images/errol-wings-3-front.jpg"
-            alt="Errol Wings 3 Year Old Single Malt — front"
-            style={{ display: 'block', width: '50%', margin: '0 auto', height: 'auto' }}
-          />
-        </div>
-        <div className="typewriter">
-          <h1 className="text-2xl md:text-3xl font-semibold mb-4">
-            Errol Wings — 3 Year Old Single Malt
-          </h1>
-          <p className="mb-2">
-            Pilot&apos;s Reserve 3 Year Old is the core Errol Wings expression: a defined single
-            malt Scotch whisky with clear age, origin and an aviation-inspired identity.
-          </p>
-          <p className="mb-0">
-            Scroll to explore the mission, the craft and the flavour through the panels below.
-          </p>
+      {/* Intro in sepia box */}
+      <section className="rounded-2xl border border-black/10 bg-[#f2e0c3] p-6">
+        <div className="grid lg:grid-cols-2 gap-8 items-center">
+          <div className="w-full max-w-md mx-auto rounded-2xl border border-black/15 bg-[#f8f0dc] p-4">
+            <img
+              src="/images/errol-wings-3-front.jpg"
+              alt="Errol Wings 3 Year Old Single Malt — front"
+              style={{ display: 'block', width: '50%', margin: '0 auto', height: 'auto' }}
+            />
+          </div>
+          <div className="typewriter">
+            <h1 className="text-2xl md:text-3xl font-semibold mb-4">
+              Errol Wings — 3 Year Old Single Malt
+            </h1>
+            <p className="mb-2">
+              Pilot&apos;s Reserve 3 Year Old is the core Errol Wings expression: a defined single
+              malt Scotch whisky with clear age, origin and an aviation-inspired identity.
+            </p>
+            <p className="mb-0">
+              Scroll to explore the mission, the craft and the flavour through the panels below.
+            </p>
+          </div>
         </div>
       </section>
 
