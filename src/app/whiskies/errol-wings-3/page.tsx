@@ -17,22 +17,21 @@ export default function EW3Page() {
       <section className="prose prose-neutral max-w-none">
         <h1>Errol Wings — 3 Year Old Single Malt</h1>
         <p>
-          A youthful, direct expression designed for international markets. The Pilot’s Reserve label reflects the aviation heritage
-          in a simplified, modern presentation.
+          A youthful, direct expression designed for international markets. The Pilot’s Reserve label reflects the aviation heritage.
         </p>
 
         <h3>Details</h3>
         <ul>
           <li>Category: Single Malt Scotch Whisky</li>
           <li>Age: 3 years</li>
-          <li>Bottle: 70 cl (Newton bottle in extra-white flint)</li>
+          <li>Bottle: 70 cl (Standard Tall Round bottle)</li>
         </ul>
 
         <h3>Logistics (typical)</h3>
         <ul>
-          <li>Case: 6 × 0.7 L</li>
-          <li>80 cases per Euro pallet</li>
-          <li>Typical container: 26 Euro pallets (40-foot)</li>
+          <li>Case: 12 × 0.7 L</li>
+          <li>60 cases per Euro pallet</li>
+          <li>Typical 40' container: 24 Euro pallets </li>
         </ul>
       </section>
     </article>
