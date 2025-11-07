@@ -34,3 +34,9 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.7;
 }
+
+.header-typewriter {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
