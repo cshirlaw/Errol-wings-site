@@ -10,18 +10,21 @@ export default function EW12Page() {
         <img
           src="/images/errol-wings-12-front.jpg"
           alt="Errol Wings 12 Year Old — front"
-          style={{ display:'block', width:'100%', height:'auto' }}
+          style={{ display: 'block', width: '70%', margin: '0 auto', height: 'auto' }}
         />
       </div>
 
       <section className="prose prose-neutral max-w-none">
-        <h1>Errol Wings — 12 Year Old</h1>
+        <h1>Errol Wings — 12 Year Old Blended Scotch</h1>
         <p>
-          A blended Scotch whisky assembled from select single grain and vintage malt components, matured for at least twelve years in bourbon oak casks.
-          The style balances vanilla, gentle oak and malt sweetness with a clean, rounded finish.
+          A limited blended Scotch release assembled from select single grain and malt components,
+          each matured for at least twelve years in bourbon oak casks.
+        </p>
+        <p>
+          The 12 Year Old reflects the original Errol Wings concept and remains part of the brand&apos;s history.
         </p>
 
-        <h3>Details</h3>
+        <h2>Details</h2>
         <ul>
           <li>Category: Blended Scotch Whisky</li>
           <li>Age: 12 years</li>
@@ -30,21 +33,13 @@ export default function EW12Page() {
           <li>ABV: 40%</li>
         </ul>
 
-        <h3>Logistics (typical)</h3>
+        <h2>Typical Logistics</h2>
         <ul>
           <li>Case: 6 × 0.7 L</li>
-          <li>80 cases per Euro pallet</li>
+          <li>Approx. 80 cases per Euro pallet</li>
           <li>Typical container: 26 Euro pallets (40-foot)</li>
         </ul>
       </section>
-
-      <div className="w-full max-w-md mx-auto rounded-2xl border bg-white p-4 lg:col-span-2">
-        <img
-          src="/images/errol-wings-12-back.jpg"
-          alt="Errol Wings 12 Year Old — back label"
-          style={{ display:'block', width:'100%', height:'auto' }}
-        />
-      </div>
     </article>
   );
 }

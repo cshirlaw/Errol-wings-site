@@ -6,29 +6,31 @@ export const metadata = {
 export default function StoryPage() {
   return (
     <section className="prose prose-neutral max-w-3xl">
-      <h1>Brand Story</h1>
+      <h1>Errol Wings — The Story</h1>
+
+      <h2>Top Secret Mission</h2>
       <p>
-        Errol Wings is a tribute to the wartime cooperation between British and Russian pilots during the Second World War.
-        Near the village of Errol in Scotland, aviators trained side by side on British aircraft bound for the Eastern Front.
-        The shared discipline and courage shown there inspired the name of our whisky.
+        Errol Wings Single Malt Scotch Whisky is inspired by a little-known chapter of the Second World War.
+        In 1942, aircraft were secretly ferried from Britain towards the Eastern Front.
+        The small Scottish town of Errol, with its airfield on the banks of the Tay, played a role as a training
+        and transit point on this route.
       </p>
       <p>
-        Our 12-year-old blended Scotch brings together carefully selected single grain and vintage malt whiskies matured in bourbon oak casks,
-        crafted for balance and a long finish. The range now also includes a three-year-old single malt with a cleaner, youthful profile intended
-        for international markets.
-      </p>
-      <p className="text-sm text-neutral-500">
-        Earlier bottlings reflected the historical theme more explicitly. Current and future releases streamline those elements for clarity across markets.
+        The brand does not romanticise war. Instead, it recognises the skill, discipline and cooperation shown by
+        crews and ground staff who worked in difficult conditions, often without recognition.
       </p>
 
-      <div className="not-prose mt-8 grid gap-6 sm:grid-cols-2">
-        <div className="mx-auto w-full max-w-sm rounded-lg border bg-white p-3">
-          <img src="/images/errol-wings-12-front.jpg" alt="Errol Wings 12 Year Old — front" style={{display:'block', width:'100%', height:'auto'}} />
-        </div>
-        <div className="mx-auto w-full max-w-sm rounded-lg border bg-white p-3">
-          <img src="/images/errol-wings-12-back.jpg" alt="Errol Wings 12 Year Old — back" style={{display:'block', width:'100%', height:'auto'}} />
-        </div>
-      </div>
+      <h2>Worthy of Their Memory</h2>
+      <p>
+        Errol Wings is presented as a whisky that preserves the memory of shared effort and the desire for peace.
+        The name symbolises people who acted with courage and professionalism, and nations that stood together against
+        a common threat.
+      </p>
+
+      <p>
+        Today, the Errol Wings range is focused on clear, honest Scotch whisky made for contemporary drinkers —
+        drawing on this history as context, not spectacle.
+      </p>
     </section>
   );
 }

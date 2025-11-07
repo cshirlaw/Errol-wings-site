@@ -1,31 +1,42 @@
 import Link from 'next/link';
+import ErrolHero from '../components/ErrolHero';
 
 export default function Page() {
   return (
     <section className="space-y-8">
-      <div className="rounded-2xl border p-8">
-        <h1 className="text-3xl md:text-4xl font-bold mb-3">Errol Wings</h1>
-        <p className="text-lg leading-relaxed">
-          A Scotch whisky project focused on clarity of style and presentation for international markets.
-          Explore our range below and read the story behind the name.
-        </p>
-        <div className="mt-6 flex flex-wrap gap-3">
-          <Link href="/whiskies" className="rounded-lg border px-4 py-2 hover:bg-neutral-50">Our Whiskies</Link>
-          <Link href="/story" className="rounded-lg border px-4 py-2 hover:bg-neutral-50">Brand Story</Link>
-        </div>
-      </div>
+      <ErrolHero />
 
       <div className="grid md:grid-cols-2 gap-6">
         <div className="rounded-2xl border p-6">
-          <h2 className="text-xl font-semibold mb-2">12 Year Old — Blended Scotch</h2>
-          <p className="mb-3">Select single grain and vintage malts matured in bourbon oak casks.</p>
-          <Link href="/whiskies/errol-wings-12" className="underline">View details</Link>
+          <h2 className="text-xl font-semibold mb-2">Errol Wings — 3 Year Old Single Malt</h2>
+          <p className="mb-3">
+            Pilot&apos;s Reserve: a youthful single malt that carries the Errol Wings story forward
+            in a contemporary, accessible style.
+          </p>
+          <Link href="/whiskies/errol-wings-3" className="underline">
+            View details
+          </Link>
         </div>
         <div className="rounded-2xl border p-6">
-          <h2 className="text-xl font-semibold mb-2">3 Year Old — Single Malt</h2>
-          <p className="mb-3">A crisp, modern expression with a streamlined label for global markets.</p>
-          <Link href="/whiskies/errol-wings-3" className="underline">View details</Link>
+          <h2 className="text-xl font-semibold mb-2">Errol Wings — 12 Year Old Blend</h2>
+          <p className="mb-3">
+            Earlier limited release: a 12-year-old blended Scotch, matured in bourbon oak casks.
+          </p>
+          <Link href="/whiskies/errol-wings-12" className="underline">
+            View details
+          </Link>
         </div>
+      </div>
+
+      <div className="rounded-2xl border p-6">
+        <h2 className="text-lg font-semibold mb-2">Discover the Story</h2>
+        <p className="mb-3">
+          Errol Wings pays tribute to a covert WWII ferry route and the pilots who trained at the
+          Errol airfield in Scotland. The whisky honours shared effort rather than glorifying conflict.
+        </p>
+        <Link href="/story" className="underline">
+          Read the full story
+        </Link>
       </div>
     </section>
   );
