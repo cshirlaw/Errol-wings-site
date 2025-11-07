@@ -29,11 +29,18 @@ export default function StoryPage() {
               cooperation — and turns that spirit into a modern, characterful Scotch whisky.
             </p>
           </div>
-          <div className="flex justify-center">
+          <div className="flex flex-col items-center gap-4">
             <div className="w-full max-w-md rounded-xl border border-black/10 bg-[#e5d2ae] shadow-sm overflow-hidden">
               <img
                 src="/images/errol-story-top-secret.jpg"
                 alt="Errol Wings Top Secret mission artwork"
+                className="w-full h-auto block"
+              />
+            </div>
+            <div className="w-full max-w-md rounded-xl border border-black/15 bg-[#e5d2ae] shadow-sm overflow-hidden">
+              <img
+                src="/images/pilot.jpg"
+                alt="Historic pilot imagery linked to Errol Wings story"
                 className="w-full h-auto block"
               />
             </div>
