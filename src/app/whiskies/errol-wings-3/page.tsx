@@ -8,7 +8,7 @@ export default function EW3Page() {
     <article className="grid lg:grid-cols-2 gap-8">
       <div className="w-full max-w-md mx-auto rounded-2xl border bg-white p-4">
         <img
-          src="/images/errol-wings-3-front.jpg?v=2"
+          src="/images/errol-wings-3-front.jpg"
           alt="Errol Wings 3 Year Old Single Malt — front"
           style={{ display:'block', width:'100%', height:'auto' }}
         />

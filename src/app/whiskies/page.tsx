@@ -37,7 +37,7 @@ export default function WhiskiesPage() {
           href="/whiskies/errol-wings-3"
           title="Errol Wings — 3 Year Old"
           subtitle="Single Malt Scotch Whisky — Pilot’s Reserve"
-          img="/images/errol-wings-3-front.jpg?v=2"
+          img="/images/errol-wings-3-front.jpg"
           alt="Errol Wings 3 Year Old bottle"
         />
       </div>

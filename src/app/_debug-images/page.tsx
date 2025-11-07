@@ -2,7 +2,7 @@ export default function DebugImages() {
   const imgs = [
     '/images/errol-wings-12-front.jpg',
     '/images/errol-wings-12-back.jpg',
-    '/images/errol-wings-3-front.jpg?v=2',
+    '/images/errol-wings-3-front.jpg',
   ];
   return (
     <div style={{padding:20}}>
