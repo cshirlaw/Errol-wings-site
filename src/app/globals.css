@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { --brand-accent: #C8A03A; }
-html, body { height: 100%; }
-body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+:root {
+  --brand-accent: #C8A03A;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Errol Wings story styling */
+
+.paper-page {
+  background-color: #f2e0c3;
+  background-image:
+    radial-gradient(circle at top left, rgba(0, 0, 0, 0.06), transparent 60%),
+    radial-gradient(circle at bottom right, rgba(0, 0, 0, 0.04), transparent 55%);
+}
+
+.paper-panel {
+  background: transparent;
+}
+
+.typewriter {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.02em;
+  line-height: 1.7;
+}
