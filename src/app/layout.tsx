@@ -37,6 +37,13 @@ const navItems: {
     ],
   },
   { href: '/story', label: 'Brand Story' },
+  {
+    href: '/distillery',
+    label: 'Our Distillery',
+    children: [
+      { href: '/distillery/malt-distiller', label: 'Malt Distiller' },
+    ],
+  },
 ];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
